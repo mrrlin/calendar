@@ -32,7 +32,7 @@ function setMonthCal(year, month) {
   }
 
     for (let i = 1; i <= monthDays; i++) {
-      monthDaysText += '<li>' + i + '</li>'
+      monthDaysText += '<li class="calendar__day">' + i + '</li>'
     }
 
     calDays.innerHTML = monthDaysText

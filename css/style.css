@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-/* Months */
+/* begin Months */
 .calendar__month {
   margin: 0;
   padding: 3rem 2rem 2rem;
@@ -31,4 +31,18 @@
 .calendar__month li.calendar__year-name {
   font-size: 1.2rem;
   font-weight: 400;
+}
+/* end Months */
+
+/* begin Days of the week*/
+.calendar__weekdays {
+  margin: 0;
+  padding: 1rem 0;
+  background: #ddd;
+  display: flex;
+}
+.calendar__weekdays li {
+  display: inline-block;
+  flex: 0 0 calc(100% / 7);
+  text-align: center;
 }

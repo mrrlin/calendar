@@ -49,6 +49,10 @@
 /* end Days of the week*/
 
 /* begin Days */
+.calendar__day:hover {
+  box-shadow: inset 0px 0px 0px 1px #a5a5a5;
+  color: #a5a5a5;
+}
 .calendar__days {
   margin: 0;
   padding: 1rem 0;

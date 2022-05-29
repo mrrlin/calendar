@@ -46,3 +46,27 @@
   flex: 0 0 calc(100% / 7);
   text-align: center;
 }
+/* end Days of the week*/
+
+/* begin Days */
+.calendar__days {
+  margin: 0;
+  padding: 1rem 0;
+  background-color: #f7f7f7;
+  display: flex;
+  flex-wrap: wrap;
+}
+.calendar__days li {
+  padding: 0.5rem;
+  display: inline-block;
+  flex: 0 0 calc(100% / 7);
+  text-align: center;
+  color: #1d1d1d;
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+}
+.calendar__days li.calendar__date-now {
+  color: #000;
+  font-weight: 700;
+}
+/* end Days */
